@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p $HOME/.composer
+
 docker run \
     --user $(id -u):$(id -g) \
     --volume $(pwd):/app \
