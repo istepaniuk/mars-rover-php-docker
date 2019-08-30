@@ -4,6 +4,10 @@ Source: Widespread kata, generally attributed to the Dallas Hack Club.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg" alt="drawing" width="500"/>
 
+## Requirements
+* A POSIX shell (Linux, OSX, WSL)
+* Docker
+
 ## Setup
 * Clone this repository and run `./setup.sh` in it. You only need to do this once.
 * Running `./run-tests.sh` will run the tests in the 'tests' folder.
