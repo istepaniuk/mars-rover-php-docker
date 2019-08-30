@@ -1,5 +1,7 @@
 #!/bin/sh
 
+[ -f ./vendor/bin/phpunit ] || ./setup.sh
+
 docker run \
     --user $(id -u):$(id -g) \
     --volume $(pwd):/app \
