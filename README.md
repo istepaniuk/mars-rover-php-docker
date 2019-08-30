@@ -2,6 +2,8 @@ Mars Rover Kata
 ===============
 Source: Widespread kata, generally attributed to the Dallas Hack Club.
 
+[!rover](https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg)
+
 ## Your Task
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet.
 Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
