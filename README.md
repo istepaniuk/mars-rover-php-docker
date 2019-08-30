@@ -4,6 +4,13 @@ Source: Widespread kata, generally attributed to the Dallas Hack Club.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg" alt="drawing" width="500"/>
 
+## Setup
+* Clone this repository and run `./setup.sh` in it. You only need to do this once.
+* Running `./run-tests.sh` will run the tests in the 'tests' folder.
+* Add your tests in `tests/MarsRoverTests.php`
+* Make the tests pass by editing `src/MarsRover.php`
+* Refactor, rinse and repeat.
+
 ## Your Task
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet.
 Develop an API that translates the commands sent from earth to instructions that are understood by the rover.
