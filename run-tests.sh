@@ -8,5 +8,5 @@ docker run \
     --entrypoint /app/vendor/bin/phpunit \
     --rm \
     composer \
-    ${@:---colors=always tests}
+    ${@:- --testdox --colors=always tests}
 
