@@ -1,0 +1,24 @@
+{
+    "name": "istepaniuk/mars-rover-php-docker",
+    "description": "Mars Rover Kata",
+    "authors": [
+        {
+            "name": "Ivan Stepaniuk",
+            "email": "istepaniuk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rover\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rover\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
