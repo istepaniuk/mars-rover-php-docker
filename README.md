@@ -2,7 +2,7 @@ Mars Rover Kata
 ===============
 Source: Widespread kata, generally attributed to the Dallas Hack Club.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg?width=500" alt="drawing" width="500"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/NASA_Mars_Rover.jpg" alt="drawing" width="500"/>
 
 ## Your Task
 You’re part of the team that explores Mars by sending remotely controlled vehicles to the surface of the planet.
