@@ -1,11 +1,11 @@
 #!/bin/sh
 
-mkdir -p $HOME/.composer
+mkdir -p .composer
 
 docker run \
     --user $(id -u):$(id -g) \
     --volume $(pwd):/app \
-    --volume ${COMPOSER_HOME:-$HOME/.composer}:/tmp \
+    --volume $(pwd)/.composer:/tmp \
     --rm \
     composer \
     ${@:-install}

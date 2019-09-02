@@ -1,4 +1,5 @@
 /.config
+/.composer
 
 **/.idea
 **/node_modules
